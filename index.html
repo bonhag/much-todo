@@ -2,15 +2,26 @@
 <html lang="en">
   <head>
     <title>jQuery demo</title>
-    <link href="components/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="components/bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet" media="screen"/>
+    <link href="todo.css" rel="stylesheet" media="screen"/>
   </head>
   <body>
     <div class="container">
-      <h1>jQuery demo</h1>
-    
+      <div class="row">
+        <h2>Todo</h2>
+        <div class="span3">
+          <span class="pull-right">To do:</span>
+        </div>
+        <div class="span9">
+          <input type="text" id="new_item"/>
+          <ul id="todo_list">
+          </ul>
+        </div>
+      </div>
     </div>
     <script src="components/jquery/jquery.min.js"></script>
-    <script src="components/boostrap/js/boostrap.min.js"></script>
+    <script src="components/bootstrap/docs/assets/js/bootstrap.js"></script>
+    <script src="todo.js"></script>
   </body>
 </html>
 

@@ -1,4 +1,4 @@
 much-todo
 =========
 
-A little todo for a jQuery demo
+A little todo for jQuery demo

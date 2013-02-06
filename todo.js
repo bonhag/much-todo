@@ -11,6 +11,9 @@ var createNewTodo = function() {
     var lastTodo = $("#todo_list > li").last();
     lastTodo.click(function() {
       $(this).remove();
+
+      // Return focus to input box after clicking on an item
+      $("#new_item").focus();
     });
 
     // Clear the input box
